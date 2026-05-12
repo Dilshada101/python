@@ -1,0 +1,15 @@
+2026-05-11T08:15:01+00:00 mail postfix/qmgr[940114]: EAAD656207: from=<info@news.com>, size=5000, nrcpt=1 (queue active)
+2026-05-11T08:15:05+00:00 mail postfix/smtp[970090]: EAAD656207: to=<user@gmail.com>, relay=://google.com, delay=4, delays=0.1/0.01/0.1/3.7, dsn=4.2.2, status=deferred (host gmail-smtp-in.l.google.com said: 452-4.2.2 The recipient's inbox is out of storage space.)
+2026-05-11T09:00:01+00:00 mail postfix/qmgr[940114]: BC12345678: from=<sales@company.com>, size=2000, nrcpt=1 (queue active)
+2026-05-11T09:00:02+00:00 mail postfix/smtp[970090]: BC12345678: to=<invalid@unknown-domain.org>, relay=none, delay=0.1, dsn=5.1.1, status=bounced (host unknown-domain.org not found)
+2026-05-11T08:15:01+00:00 mail postfix/qmgr[940114]: EAAD656207: from=<info@news.com>, size=5000, nrcpt=1 (queue active)
+2026-05-11T08:15:05+00:00 mail postfix/smtp[970090]: EAAD656207: to=<user@gmail.com>, relay=://google.com, delay=4, delays=0.1/0.01/0.1/3.7, dsn=4.2.2, status=deferred (host gmail-smtp-in.l.google.com said: 452-4.2.2 The recipient's inbox is out of storage space.)
+2026-05-11T09:00:01+00:00 mail postfix/qmgr[940114]: BC12345678: from=<sales@company.com>, size=2000, nrcpt=1 (queue active)
+2026-05-11T09:00:02+00:00 mail postfix/smtp[970090]: BC12345678: to=<invalid@unknown-domain.org>, relay=none, delay=0.1, dsn=5.1.1, status=bounced (host unknown-domain.org not found)
+2026-05-11T08:15:01+00:00 mail postfix/qmgr[940114]: EAAD656207: from=<info@news.com>, size=5000, nrcpt=1 (queue active)
+2026-05-11T08:15:05+00:00 mail postfix/smtp[970090]: EAAD656207: to=<user@gmail.com>, relay=://google.com, delay=4, delays=0.1/0.01/0.1/3.7, dsn=4.2.2, status=deferred (host gmail-smtp-in.l.google.com said: 452-4.2.2 The recipient's inbox is out of storage space.)
+2026-05-11T09:00:01+00:00 mail postfix/qmgr[940114]: BC12345678: from=<sales@company.com>, size=2000, nrcpt=1 (queue active)
+2026-05-11T09:00:02+00:00 mail postfix/smtp[970090]: BC12345678: to=<invalid@unknown-domain.org>, relay=none, delay=0.1, dsn=5.1.1, status=bounced (host unknown-domain.org not found)
+
+
+

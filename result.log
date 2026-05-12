@@ -1,1 +1,4 @@
-{'user@gmail.com', 'sales@company.com', 'info@news.com', 'invalid@unknown-domain.org'}
+invalid@unknown-domain.org
+user@gmail.com
+sales@company.com
+info@news.com

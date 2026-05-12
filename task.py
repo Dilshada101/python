@@ -4,4 +4,5 @@ with open ("file.log", 'r') as f:
    x=re.findall(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}', content)
    print(set(x))
 with open ("result.log", 'w') as f:
-   content=f.write(str(set(x)))
+   for email in set(x):
+      f.write(email + '\n')
